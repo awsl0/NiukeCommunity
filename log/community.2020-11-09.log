@@ -1,0 +1,2526 @@
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 12828 (started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 201ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bilibili.mapper.ElasticsearchMapper.
+Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$e9f8be11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1646ac8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5934 ms
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+LiveReload server is running on port 35729
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+Starting ProtocolHandler ["http-nio-8989"]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 21.322 seconds (JVM running for 22.71)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 34
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 34
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 33 ms
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:02],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+{dataSource-1} inited
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+Starting without optional epoll library
+Starting without optional kqueue library
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:03],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:13],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:25],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:33],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:36:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:38:53],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 16352 (started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bilibili.mapper.ElasticsearchMapper.
+Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$40d668c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d245743] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2701 ms
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+LiveReload server is running on port 35729
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 36
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+Starting ProtocolHandler ["http-nio-8989"]
+partitions assigned: [comment-0, like-0, follow-0]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 10.908 seconds (JVM running for 12.948)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Attempt to heartbeat failed since group is rebalancing
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 37
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 37
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 15 ms
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:40:08],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:40:09],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 21224 (started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bilibili.mapper.ElasticsearchMapper.
+Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$6d4b246a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999912e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2810 ms
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+LiveReload server is running on port 35729
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 39
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+partitions assigned: [publish-0]
+Starting ProtocolHandler ["http-nio-8989"]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 10.32 seconds (JVM running for 12.683)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Attempt to heartbeat failed since group is rebalancing
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 40
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 40
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 9 ms
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:41:03],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition publish-0 at offset 1: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Asynchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Asynchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Synchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Synchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 42
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 42
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:44:46],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Error sending fetch request (sessionId=1150487224, epoch=415) to node 0: org.apache.kafka.common.errors.DisconnectException.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition publish-0 at offset 1: The coordinator is not aware of this member.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Asynchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Synchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Asynchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Synchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 44
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 44
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+Shutting down ExecutorService
+Shutting down ExecutorService
+Consumer stopped
+Consumer stopped
+Shutting down ExecutorService 'applicationTaskExecutor'
+{dataSource-0} closing ...
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 12468 (started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bilibili.mapper.ElasticsearchMapper.
+Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$b208f7b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de56e631] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2404 ms
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+LiveReload server is running on port 35729
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+Starting ProtocolHandler ["http-nio-8989"]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 47
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 47
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 13.537 seconds (JVM running for 14.948)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 37 ms
+用户[127.0.0.1],在[2020-11-09 13:51:27],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+Shutting down ExecutorService
+Shutting down ExecutorService
+Consumer stopped
+Consumer stopped
+Shutting down ExecutorService 'applicationTaskExecutor'
+{dataSource-0} closing ...
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 18340 (started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bilibili.mapper.ElasticsearchMapper.
+Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$2789fcd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53d7eb54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3496 ms
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+LiveReload server is running on port 35729
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 49
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+partitions assigned: [publish-0]
+Starting ProtocolHandler ["http-nio-8989"]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 11.913 seconds (JVM running for 13.309)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Attempt to heartbeat failed since group is rebalancing
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 50
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 50
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 12 ms
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:52:36],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition publish-0 at offset 1: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Asynchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Asynchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Synchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Synchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 52
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 52
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:57:53],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:36],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition publish-0 at offset 1: The coordinator is not aware of this member.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Asynchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Asynchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Synchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Synchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 54
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+partitions assigned: [publish-0]
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+Starting without optional epoll library
+Starting without optional kqueue library
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 13:59:44],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Attempt to heartbeat failed since group is rebalancing
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+partitions revoked: [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 55
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 55
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+Shutting down ExecutorService
+Shutting down ExecutorService
+Consumer stopped
+Consumer stopped
+Shutting down ExecutorService 'applicationTaskExecutor'
+{dataSource-0} closing ...
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 21648 (started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 172ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bilibili.mapper.ElasticsearchMapper.
+Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$4a97a1ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76e59067] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4166 ms
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+LiveReload server is running on port 35729
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Kafka version : 2.0.1
+Kafka commitId : fa14705e51bd2ce5
+Initializing ExecutorService
+Cluster ID: PlpdobZhSsWqjkg6yvKfBA
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+partitions revoked: []
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 57
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [comment-0, like-0, follow-0]
+Starting ProtocolHandler ["http-nio-8989"]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 19.153 seconds (JVM running for 20.525)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Attempt to heartbeat failed since group is rebalancing
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 58
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 58
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 15 ms
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:01:21],访问了[com.bilibili.service.impl.ElasticsearchServiceImpl.searchDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:01:21],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+Starting without optional epoll library
+Starting without optional kqueue library
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:01:22],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:01:22],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:01:22],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+{dataSource-1} inited
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:33],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:34],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:37],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:39],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-11-09 14:11:42],访问了[com.bilibili.service.impl.LickServiceImpl.LikeCount].
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Error sending fetch request (sessionId=2107505417, epoch=1311) to node 0: org.apache.kafka.common.errors.DisconnectException.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Error sending fetch request (sessionId=2025743803, epoch=1317) to node 0: org.apache.kafka.common.errors.DisconnectException.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Offset commit failed on partition publish-0 at offset 1: The coordinator is not aware of this member.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Asynchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Asynchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Synchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Synchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+partitions revoked: [publish-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 60
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 60
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+partitions assigned: [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Error sending fetch request (sessionId=2065784144, epoch=1952) to node 0: org.apache.kafka.common.errors.DisconnectException.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Error sending fetch request (sessionId=1939767786, epoch=1952) to node 0: org.apache.kafka.common.errors.DisconnectException.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator DESKTOP-QPE2857:9092 (id: 2147483647 rack: null)
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Offset commit failed on partition publish-0 at offset 1: The coordinator is not aware of this member.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Asynchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Asynchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Synchronous auto-commit of offsets {publish-0=OffsetAndMetadata{offset=1, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Synchronous auto-commit of offsets {comment-0=OffsetAndMetadata{offset=0, metadata=''}, like-0=OffsetAndMetadata{offset=0, metadata=''}, follow-0=OffsetAndMetadata{offset=0, metadata=''}} failed: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+partitions revoked: [publish-0]
+partitions revoked: [comment-0, like-0, follow-0]
+[Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 62
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 62
+[Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+[Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+partitions assigned: [comment-0, like-0, follow-0]
+partitions assigned: [publish-0]

@@ -1,0 +1,124 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /community
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/community?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #Spring Boot 默认是不注入这些属性值的，需要自己绑定
+    #druid 数据源专有配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+  mvc:
+    format:
+      date: yyyy-MM-dd HH:mm:ss
+  mail:
+    host: smtp.163.com
+    username: ywjsn552566@163.com
+    password: NLOHSRKIOEBCYJWP
+    default-encoding: utf-8
+#Redis配置
+  redis:
+    port: 6379
+    host: 127.0.0.1
+  #Kafka配置
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: community-consumer-group
+      enable-auto-commit: true
+      auto-commit-interval: 3000
+      properties:
+        security:
+          protocol: PLAINTEXT
+  #ElasticSearch配置
+  data:
+    elasticsearch:
+      cluster-name: community
+      cluster-nodes: 127.0.0.1:9300
+  #定时任务
+  quartz:
+    job-store-type: jdbc
+    scheduler-name: communityScheduler
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceId: AUTO
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            isClustered: true
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 5
+  #Spring线程池配置
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 15
+        queue-capacity: 100
+   #Spring定时任务配置
+    scheduling:
+      pool:
+        size: 5
+
+
+#整合mybatis
+mybatis:
+  type-aliases-package: com.bilibili.pojo
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    use-generated-keys: true
+
+#路径配置
+community.path:
+  domain: http://localhost:8989
+  upload: D:\编程\community\upload
+
+#日志
+logging:
+  config: classpath:logback.xml
+
+#wk配置
+wk:
+  image:
+    command: D:\wkHtmlToImage\wkhtmltopdf\bin\wkhtmltoimage
+    storage: D:\wkHtmlToImage\data\community\wk-image
+
+#七牛云配置
+qiniu:
+  key:
+    access: UyHM9PF7gptpShRD-2JdUPeMDrN2612XMU_cm3_5
+    secret: AhRyAvnD57rVp33SdVKaMywb876sIaJJOFJWXnz_
+  bucket:
+    header:
+      name: lixiangxiang-community-header
+      url: http://qjx5uc0vx.hn-bkt.clouddn.com
+    share:
+      name: lixiangxiang-community-share
+      url: http://qjx54bsdo.hn-bkt.clouddn.com
+
+#coffeine缓存配置
+caffeine:
+  posts:
+    max-size: 10
+    expire-seconds: 180
+
+

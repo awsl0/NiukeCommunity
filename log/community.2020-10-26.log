@@ -1,0 +1,58 @@
+Starting CommunityApplication on DESKTOP-QPE2857 with PID 10840 (D:\编程\community\target\classes started by 北极光。 in D:\编程\community)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8989 (http)
+Initializing ProtocolHandler ["http-nio-8989"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.38]
+Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1143 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+Adding welcome page template: index
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8989"]
+Tomcat started on port(s): 8989 (http) with context path '/community'
+Started CommunityApplication in 2.244 seconds (JVM running for 3.093)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.findAllDiscussPost].
+{dataSource-1} inited
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:01],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.DiscussPostServiceImpl.getDiscussPostById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.getComments].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.getComments].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.CommentCount].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.getComments].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.CommentCount].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.getComments].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.CommentCount].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.getComments].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.CommentCount].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.UserServiceImpl.getUserById].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.getComments].
+用户[0:0:0:0:0:0:0:1],在[2020-10-26 22:39:34],访问了[com.bilibili.service.impl.CommentServiceImpl.CommentCount].
